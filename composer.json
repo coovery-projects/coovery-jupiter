@@ -1,0 +1,46 @@
+{
+    "name": "coovery-projects/coovery-jupiter",
+    "description": "Many moons orbit the Coovery Jupiter.",
+    "keywords": ["coovery", "jupiter", "laravel"],
+    "license": "MIT",
+    "homepage": "https://coovery.com/jupiter",
+    "support": {
+        "issues": "https://github.com/coovery-projects/coovery-jupiter/issues",
+        "source": "https://github.com/coovery-projects/coovery-jupiter"
+    },
+    "authors": [
+        {
+            "name": "You Ming",
+            "email": "youming@coovery.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4.2",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coovery\\Jupiter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coovery\\Jupiter\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
